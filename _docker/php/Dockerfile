@@ -24,7 +24,7 @@ RUN mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
 RUN composer global require "squizlabs/php_codesniffer" --dev
 
 RUN git config --global user.email "contact@mathieuviot.fr"
-RUN git config --global user.name "Mathieu"
+RUN git config --global user.name "Mathieu VIOT"
 
 RUN chown -R www-data:www-data /var/www
 
